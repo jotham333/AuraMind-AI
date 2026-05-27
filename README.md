@@ -5,7 +5,7 @@ AuraMind is an event-driven semantic ingestion and synchronization system design
 
 The platform automatically detects changes across cloud-based documents and structured datasets, processes them through specialized ingestion pipelines, generates semantic embeddings, and synchronizes the results into a vector database for intelligent retrieval and grounding systems.
 
-🚀 Core Problem
+## 🚀 Core Problem
 
 Most AI systems fail because their knowledge becomes stale.
 
@@ -26,10 +26,11 @@ fragmented knowledge states
 
 AuraMind solves this by creating a real-time synchronization layer between enterprise knowledge sources and AI retrieval systems.
 
-🧠 System Architecture
+## 🧠 System Architecture
+
 <img width="1195" height="851" alt="Screenshot 2026-05-26 100040" src="https://github.com/user-attachments/assets/5bb7ee8d-a820-4227-b96f-f78339eb59a0" />
 
-⚙️ Key Features
+## ⚙️ Key Features
 ✅ Event-Driven Synchronization
 
 Automatically detects file creation and updates in connected cloud storage systems.
@@ -56,7 +57,7 @@ Stores retrieval-ready metadata for filtering, ranking, and contextual grounding
 
 Continuously updates Pinecone vector indexes without requiring full reprocessing.
 
-🏗️ Technical Stack
+## 🏗️ Technical Stack
 Layer	Technology
 Workflow Orchestration	n8n
 Embeddings	OpenAI Embeddings API
@@ -65,8 +66,10 @@ Storage Events	Google Drive Trigger
 Structured Data Source	Google Sheets
 Narrative Data Source	Google Docs
 Processing Logic	JavaScript
+Pinecone Vector Database
 Retrieval Architecture	RAG Pipeline
-🔥 Narrative Pipeline (Path A)
+
+## 🔥 Narrative Pipeline (Path A)
 
 Handles:
 
@@ -91,7 +94,8 @@ Optimized for:
 contextual retrieval
 semantic grounding
 enterprise knowledge systems
-📊 Structured Pipeline (Path B)
+
+## 📊 Structured Pipeline (Path B)
 
 Handles:
 
@@ -125,7 +129,7 @@ Lead_ID: L-001, Company_Name: Apex Global Logistics, Industry: Transportation
 
 This enables structured operational records to become semantically retrievable inside vector systems.
 
-🧠 Why Separate Narrative & Structured Pipelines?
+## 🧠 Why Separate Narrative & Structured Pipelines?
 
 A major architectural decision in AuraMind was separating:
 
@@ -141,7 +145,8 @@ retrieval precision
 semantic ranking
 system scalability
 debugging and maintainability
-🔍 Example Use Cases
+
+## 🔍 Example Use Cases
 Enterprise AI knowledge bases
 Internal AI assistants
 Real-time policy synchronization
@@ -150,12 +155,14 @@ Inventory-aware AI systems
 CRM semantic retrieval
 Retrieval-Augmented Generation (RAG)
 AI context synchronization infrastructure
-📈 Results
+
+## 📈 Results
 Achieved near real-time synchronization between enterprise data sources and vector storage.
 Successfully normalized both structured and unstructured enterprise knowledge into retrieval-ready embeddings.
 Reduced retrieval noise by separating narrative and operational ingestion pipelines.
 Built a scalable event-driven architecture capable of continuous enterprise knowledge updates.
-🧩 Future Improvements
+
+## 🧩 Future Improvements
 Hybrid vector + metadata retrieval
 Incremental delta synchronization
 Deduplication layer
@@ -163,7 +170,8 @@ Semantic reranking
 Multi-tenant architecture
 Queue-based ingestion scaling
 Advanced schema-aware retrieval routing
-🛡️ Design Principles
+
+##🛡️ Design Principles
 
 AuraMind was engineered around:
 
@@ -173,13 +181,14 @@ semantic integrity
 retrieval optimization
 event-driven synchronization
 scalable AI infrastructure patterns
-📌 Project Status
+
+## 📌 Project Status
 
 🚧 Active Development
 
 AuraMind is currently evolving into a production-grade AI knowledge synchronization platform focused on enterprise retrieval infrastructure and semantic operational intelligence.
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Built by Jotham Josiah
 Backend System & AI Automation
