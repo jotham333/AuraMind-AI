@@ -27,22 +27,8 @@ fragmented knowledge states
 AuraMind solves this by creating a real-time synchronization layer between enterprise knowledge sources and AI retrieval systems.
 
 🧠 System Architecture
-Google Drive Event Trigger
-            ↓
-      MIME Type Router
-     ┌───────────────┴───────────────┐
-     ↓                               ↓
-Narrative Pipeline             Structured Pipeline
-(Docs / Policies / PDFs)      (Sheets / CSV / Ops Data)
-     ↓                               ↓
-Semantic Chunking             Row-Level Normalization
-     ↓                               ↓
-Embedding Generation          Embedding Generation
-     └───────────────┬───────────────┘
-                     ↓
-               Pinecone Vector DB
-                     ↓
-         Retrieval-Augmented AI Systems
+<img width="1195" height="851" alt="Screenshot 2026-05-26 100040" src="https://github.com/user-attachments/assets/5bb7ee8d-a820-4227-b96f-f78339eb59a0" />
+
 ⚙️ Key Features
 ✅ Event-Driven Synchronization
 
